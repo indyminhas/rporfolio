@@ -1,7 +1,7 @@
-// const express = require("express");
+const express = require("express");
 // const path = require("path");
-// const PORT = process.env.PORT || 3001;
-// const app = express();
+const PORT = process.env.PORT || 3001;
+const app = express();
 
 // // Defining middleware
 // app.use(express.urlencoded({ extended: true }));
@@ -17,6 +17,6 @@
 //   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 // });
 
-// app.listen(PORT, () => {
-//   console.log(`🌎 ==> API server now on port ${PORT}!`);
-// });
+app.listen(PORT, () => {
+  console.log(`🌎 ==> API server now on port ${PORT}!`);
+});
