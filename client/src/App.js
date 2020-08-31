@@ -29,9 +29,9 @@ function App() {
         <Route exact path="/contact">
           <Contact />
         </Route>
-        <Route exact path="*">
+        {/* <Route exact path="*">
           <NotFound />
-        </Route>
+        </Route> */}
       </Switch>
 
     </main>
